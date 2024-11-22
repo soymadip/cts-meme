@@ -10,6 +10,7 @@ body {
   font-family: Arial, sans-serif;
   background: url('assets/code.png') repeat; /* Using a small doodle icon */
   color: #fff;
+  size: 1px;
   text-align: center;
 }
 
