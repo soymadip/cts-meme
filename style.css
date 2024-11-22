@@ -1,34 +1,57 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* Body Styling */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #1e1e2e;
-    color: #cdd6f4;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  background: url('../assets/icons/doodle.png') repeat; /* Using a small doodle icon */
+  color: #fff;
+  text-align: center;
 }
 
+/* Header */
 header {
-    padding: 20px;
-    background-color: #89b4fa;
-    color: #1e1e2e;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.8);
 }
 
-h1 {
-    margin: 0;
-    font-size: 2.5rem;
-}
-
+/* Main Content */
 main {
-    padding: 20px;
+  padding: 2rem;
 }
 
-.meme-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
+/* Section Titles */
+h2 {
+  margin: 1rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
-.meme {
-    border: 1
-  
+/* Gallery Styling */
+.gallery, .video-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.gallery img, .video-gallery video {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s;
+}
+
+.gallery img:hover, .video-gallery video:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.8);
+}
