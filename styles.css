@@ -9,8 +9,8 @@
 body {
   font-family: Arial, sans-serif;
   background: url('assets/code.png') repeat; /* Using a small doodle icon */
+  background-size: 20px 20px; /* Control the size of the doodles */
   color: #fff;
-  size: 1px;
   text-align: center;
 }
 
