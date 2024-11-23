@@ -1,1 +1,1 @@
-[link](https://soymadip.github.io/for/juniors)
+[link](https://soymadip.github.io/for-juniors)
