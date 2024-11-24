@@ -62,12 +62,25 @@ h2 {
 	padding-top: 60px;
 }
 
+.more-videos {
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Ga Maamli", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: min(9rem, 8vw);
+	white-space: nowrap;
+	color: #adb41d;
+}
+
 .content-wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 2rem;
-	margin-top: -9vh; /* This will move the content up */
+	margin-top: -9vh;
 }
 
 .scroll-indicator {
@@ -78,26 +91,55 @@ h2 {
 	align-items: center;
 	gap: 1rem;
 	margin-top: auto;
-	padding: 3rem; /* Increased padding */
+	padding: 3rem;
 	cursor: pointer;
-	width: 100%; /* Full width container */
-	max-width: 300px; /* Maximum width */
+	width: 100%;
+	max-width: 300px;
 }
 
 .scroll-indicator p {
 	animation: fadeInOut 2s infinite;
 	opacity: 0.7;
-	padding: 1.5rem; /* Increased padding */
+	padding: 1.5rem;
+}
+
+.scroll-indicator-videos {
+	font-size: 1.1rem;
+	font-family: Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.5rem;
+	margin: 2rem auto;
+	margin-top: 3rem;
+	margin-bottom: 25rem;
+	padding: 3rem;
+	cursor: pointer;
+	width: 100%;
+	max-width: 300px;
+	color: #adb41d;
+}
+
+.scroll-indicator-videos p {
+	animation: fadeInOut 2s infinite;
+	opacity: 0.7;
+	padding: 1.5rem;
 }
 
 .arrow {
-	width: 30px; /* Larger arrow */
-	height: 30px; /* Larger arrow */
-	border-right: 4px solid #131212; /* Thicker border */
-	border-bottom: 4px solid #131212; /* Thicker border */
+	width: 30px;
+	height: 30px;
+	border-right: 4px solid #131212;
+	border-bottom: 4px solid #131212;
 	transform: rotate(45deg);
 	animation: arrowBounce 2s infinite;
-	margin: 1rem; /* Increased margin */
+	margin: 1rem;
+}
+
+.video-gallery-h2 {
+	font-size: 3.1rem;
+	text-decoration: underline #adb41d;
+	margin-bottom: 1vh;
 }
 
 @keyframes fadeInOut {
@@ -146,6 +188,7 @@ h2 {
 	justify-content: center;
 	flex-wrap: wrap;
 	gap: 5px;
+	margin-bottom: 15rem;
 }
 
 .gallery img {
@@ -170,6 +213,7 @@ h2 {
 	border-radius: 10px;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 	transition: transform 0.2s;
+	margin-bottom: 40vh;
 }
 
 /* Footer */

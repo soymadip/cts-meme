@@ -17,8 +17,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	// Add scroll functionality
 	const scrollIndicator = document.querySelector(".scroll-indicator");
+	const scrollIndicatorVideos = document.querySelector(
+		".scroll-indicator-videos"
+	);
+
 	scrollIndicator.addEventListener("click", () => {
 		document.getElementById("memes-section").scrollIntoView({
+			behavior: "smooth",
+			block: "start",
+		});
+	});
+
+	scrollIndicatorVideos.addEventListener("click", () => {
+		document.querySelector("h2").scrollIntoView({
 			behavior: "smooth",
 			block: "start",
 		});
