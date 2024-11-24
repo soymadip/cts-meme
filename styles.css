@@ -71,31 +71,33 @@ h2 {
 }
 
 .scroll-indicator {
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 	font-family: Arial, sans-serif;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 0.5rem;
+	gap: 1rem;
 	margin-top: auto;
-	padding: 2rem; /* Increased padding for larger click area */
-	cursor: pointer; /* Add pointer cursor to indicate clickability */
+	padding: 3rem; /* Increased padding */
+	cursor: pointer;
+	width: 100%; /* Full width container */
+	max-width: 300px; /* Maximum width */
 }
 
 .scroll-indicator p {
 	animation: fadeInOut 2s infinite;
 	opacity: 0.7;
-	padding: 1rem; /* Add padding to text */
+	padding: 1.5rem; /* Increased padding */
 }
 
 .arrow {
-	width: 25px; /* Slightly larger arrow */
-	height: 25px; /* Slightly larger arrow */
-	border-right: 3px solid #131212;
-	border-bottom: 3px solid #131212;
+	width: 30px; /* Larger arrow */
+	height: 30px; /* Larger arrow */
+	border-right: 4px solid #131212; /* Thicker border */
+	border-bottom: 4px solid #131212; /* Thicker border */
 	transform: rotate(45deg);
 	animation: arrowBounce 2s infinite;
-	margin: 0.5rem; /* Add margin around arrow */
+	margin: 1rem; /* Increased margin */
 }
 
 @keyframes fadeInOut {
