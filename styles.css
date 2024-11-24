@@ -145,7 +145,8 @@ h2 {
 
 .gallery img:hover,
 .video-gallery video:hover {
-	transform: scale(1.09);
+	transform: scale(1.1);
+	box-shadow: #adb41d 0px 0px 10px;
 }
 
 .video-gallery video {
