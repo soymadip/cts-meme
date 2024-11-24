@@ -28,7 +28,7 @@ header {
 	margin: 0.3rem 0;
 	margin-top: 2vh;
 	padding: 5px;
-	background: rgba(246, 245, 245, 0.461);
+	background: rgba(246, 245, 245, 0.539);
 	border-radius: 12px;
 }
 
@@ -71,7 +71,7 @@ h2 {
 }
 
 .scroll-indicator {
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	font-family: Arial, sans-serif;
 	display: flex;
 	flex-direction: column;
@@ -132,7 +132,7 @@ h2 {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	gap: 1rem;
+	gap: 5px;
 }
 
 .gallery img {
@@ -140,14 +140,12 @@ h2 {
 	max-width: 300px;
 	max-height: max-content;
 	border-radius: 10px;
-	box-shadow: 0 4px 6px rgba(66, 65, 65, 0.5);
 	transition: transform 0.2s;
-	border: #131212 5px solid;
 }
 
 .gallery img:hover,
 .video-gallery video:hover {
-	transform: scale(1.05);
+	transform: scale(1.09);
 }
 
 .video-gallery video {
@@ -171,5 +169,5 @@ footer {
 
 footer a {
 	color: #533110;
-	text-decoration: none;
+	/* text-decoration: none; */
 }
