@@ -13,6 +13,7 @@
 			href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap"
 			rel="stylesheet"
 		/>
+		<script src="script.js" defer></script>
 	</head>
 	<body>
 		<header>
@@ -22,41 +23,48 @@
 				<img src="assets/dcst.png" width="33px" />
 				<img src="assets/c.png" width="32px" />
 				<img src="assets/js.png" width="30px" />
-				<img src="assets/12.png" width="35px" />
+				<img src="assets/12.png" width="31px" />
 			</div>
 		</header>
 
-		<main>
-			<div class="more">
-				<p>Wannt more?</p>
-			</div>
+			<main>
+				<div class="more">
+					<div class="content-wrapper">
+						<p>Want&nbsp;more?</p>
+						<div class="scroll-indicator" role="button" style="cursor: pointer;">
+							<p>Then scroll Down</p>
+							<div class="arrow"></div>
+						</div>
+					</div>
+				</div>
 
-			<h2>Memes</h2>
-			<div class="gallery">
-				<img src="assets/js.png" alt="Meme 1" />
-				<br />
-				<img src="assets/css.png" alt="Meme 2" />
-				<br />
-				<img src="assets/c.png" alt="Meme 3" />
-				<br />
-			</div>
+				<h2 id="memes-section">Memes</h2>
+				<div class="gallery">
+					<img src="assets/meme.jpeg" alt="Meme 1" />
+					<br />
+					<img src="assets/meme.jpeg" alt="Meme 2" />
+					<br />
+					<img src="assets/meme.jpeg" alt="Meme 3" />
+					<br />
+				</div>
 
-			<h2>Videos</h2>
-			<div class="video-gallery">
-				<video
-					src="https://github.com/soymadip/for-juniors/releases/download/1/lalbari.mp4"
-					autoplay
-					loop
-					controls
-				>
-					Your browser does not support the video tag. Please use Chrome
-					browser.
-				</video>
-			</div>
-		</main>
+				<h2>Videos</h2>
+				<div class="video-gallery">
+					<video
+						class="lazy-video"
+						src="https://github.com/soymadip/for-juniors/releases/download/1/lalbari.mp4"
+						loop
+						controls
+					>
+						Your browser does not support the video tag. Please use Chrome
+						browser.
+					</video>
+				</div>
+			</main>
+		</div>
 
 		<footer>
-			<p>Made with ❤️ from seniors</p>
+			<p>Made with ❤️ by seniors</p>
 		</footer>
 	</body>
 </html>
