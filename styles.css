@@ -53,10 +53,10 @@ h2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: "Rubik Mono One", monospace;
+	font-family: "Ga Maamli", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: min(3rem, 8vw);
+	font-size: min(9rem, 8vw);
 	white-space: nowrap;
 	color: #adb41d;
 	padding-top: 60px;
