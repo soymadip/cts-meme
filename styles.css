@@ -1,58 +1,85 @@
 /* Basic Reset */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 /* Body Styling */
 body {
-  font-family: Arial, sans-serif;
-  background: url('assets/code.png') repeat; /* Using a small doodle icon */
-  background-size: 40px; /* Control the size of the doodles */
-  color: #fff;
-  text-align: center;
+	font-family: Arial, sans-serif;
+	/* background: url("assets/code.png") repeat; */
+	/* background-size: 40px; */
+	color: #131212;
+	text-align: center;
+	background-color: #226062;
 }
 
 /* Header */
 header {
-  padding: 1rem;
-  background: rgba(0, 0, 0, 0.8);
+	margin: 0.3rem 5px;
+	margin-bottom: 1rem;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: rgba(246, 245, 245, 0.461);
+	border-radius: 12px;
 }
 
 /* Main Content */
 main {
-  padding: 2rem;
+	padding: 2rem;
+	border-radius: 5px;
 }
 
 /* Section Titles */
 h2 {
-  margin: 1rem 0;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+	margin: 1rem 0;
+	align-content: left;
+}
+
+.more {
+	font-family: "Rubik Mono One", monospace;
+	font-weight: 400;
+	font-style: normal;
 }
 
 /* Gallery Styling */
-.gallery, .video-gallery {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
+
+.gallery {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
 }
 
-.gallery img, .video-gallery video {
-  max-width: 300px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-  transition: transform 0.2s;
+.gallery img {
+	align-content: center;
+	max-width: 300px;
+	max-height: max-content;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(66, 65, 65, 0.5);
+	transition: transform 0.2s;
+	border: #131212 5px solid;
 }
 
-.gallery img:hover, .video-gallery video:hover {
-  transform: scale(1.05);
+.gallery img:hover,
+.video-gallery video:hover {
+	transform: scale(1.05);
+}
+
+.video-gallery video {
+	margin: 1rem;
+	max-width: 400px;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+	transition: transform 0.2s;
 }
 
 /* Footer */
 footer {
-  margin-top: 2rem;
-  padding: 1rem;
-  background: rgba(0, 0, 0, 0.8);
+	/* margin: 9px 10px; */
+	padding: 5px;
+	background: rgba(244, 236, 236, 0.8);
+	font-size: 12px;
+	border-radius: 5px;
 }
