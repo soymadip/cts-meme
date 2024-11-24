@@ -23,7 +23,7 @@ header {
 	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
-	width: 92%; /* slightly wider header */
+	width: 92%;
 	z-index: 1000;
 	margin: 0.3rem 0;
 	margin-top: 2vh;
@@ -34,10 +34,10 @@ header {
 
 /* Main Content */
 main {
-	margin: 10vh auto 0; /* center main content */
-	max-width: 1200px; /* maximum width */
-	max-width: 1200px; /* maximum width */
-	width: 92%; /* responsive width */
+	margin: 10vh auto 0;
+	max-width: 1200px;
+	max-width: 1200px;
+	width: 92%;
 	border-radius: 5px;
 }
 
@@ -122,8 +122,21 @@ h2 {
 	}
 }
 
+#memes-section {
+	margin: 1rem;
+	padding-top: 10vh;
+}
+
+#memes-section h1 {
+	font-size: 3.1rem;
+	text-decoration: underline #adb41d;
+	margin-bottom: 1vh;
+}
+
 #memes-section p {
-	padding-top: 15vh;
+	color: rgba(255, 255, 255, 0.721);
+	font-size: 11px;
+	margin-bottom: 3rem;
 }
 
 /* Gallery Styling */
@@ -150,9 +163,9 @@ h2 {
 }
 
 .video-gallery video {
-	margin: 1rem auto; /* center video */
-	width: 100%; /* fill container width */
-	max-width: 1200px; /* match main content max-width */
+	margin: 1rem auto;
+	width: 100%;
+	max-width: 1200px;
 	height: auto;
 	border-radius: 10px;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
@@ -170,5 +183,4 @@ footer {
 
 footer a {
 	color: #533110;
-	/* text-decoration: none; */
 }
