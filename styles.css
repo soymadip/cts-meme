@@ -14,7 +14,7 @@ body {
 	font-family: Arial, sans-serif;
 	color: #131212;
 	text-align: center;
-	background-color: #226062;
+	background-color: rgba(246, 245, 245, 0.539);
 }
 
 /* Header */
@@ -28,7 +28,7 @@ header {
 	margin: 0.3rem 0;
 	margin-top: 2vh;
 	padding: 5px;
-	background: rgba(246, 245, 245, 0.539);
+	background: rgba(246, 245, 245, 0.818);
 	border-radius: 12px;
 }
 
@@ -53,7 +53,7 @@ h2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: "Ga Maamli", sans-serif;
+	font-family: "Ga Maamli", serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: min(9rem, 8vw);
@@ -67,12 +67,39 @@ h2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: "Ga Maamli", sans-serif;
-	font-weight: 400;
+	font-family: "Ga Maamli", serif;
+	font-weight: 700;
 	font-style: normal;
 	font-size: min(9rem, 8vw);
 	white-space: nowrap;
 	color: #1ceba9;
+}
+
+.more-videos2 {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Ga Maamli", serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: min(9rem, 8vw);
+	white-space: nowrap;
+	color: #1ceba9;
+}
+
+.more-videos3 {
+	height: 1vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Ga Maamli", serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: min(9rem, 8vw);
+	white-space: nowrap;
+	color: #1ceba9;
+	margin-bottom: 9rem;
 }
 
 .content-wrapper {
@@ -137,7 +164,7 @@ h2 {
 }
 
 #memes-section p {
-	color: rgba(255, 255, 255, 0.721);
+	color: rgba(78, 108, 67, 0.721);
 	font-size: 11px;
 	margin-bottom: 3rem;
 }
@@ -207,14 +234,14 @@ h2 {
 }
 
 .video-gallery-p {
-	color: rgba(255, 255, 255, 0.721);
+	color: rgba(78, 108, 67, 0.721);
 	font-size: 11px;
 	margin-bottom: 7rem;
 }
 
 .video-gallery-p a {
 	text-decoration: none;
-	color: wheat;
+	color: rgb(233, 193, 117);
 }
 
 .video-gallery-p a:hover {
