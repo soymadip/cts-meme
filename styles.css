@@ -15,6 +15,7 @@ body {
 	color: #131212;
 	text-align: center;
 	background-color: rgba(246, 245, 245, 0.539);
+	/* color:  */
 }
 
 /* Header */
@@ -28,7 +29,7 @@ header {
 	margin: 0.3rem 0;
 	margin-top: 2vh;
 	padding: 5px;
-	background: rgba(246, 245, 245, 0.818);
+	background: rgba(232, 247, 243, 0.818);
 	border-radius: 12px;
 }
 
