@@ -51,10 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 document.addEventListener("DOMContentLoaded", () => {
-    const video = document.getElementById("giftVideo");
-    const message = document.getElementById("giftMessage");
-
-    video.addEventListener("ended", () => {
-        message.style.display = "block";
-    });
+    setTimeout(() => {
+        document.getElementById("giftMessage").style.display = "block";
+    }, 9000);
 });
