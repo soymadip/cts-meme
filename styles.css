@@ -123,7 +123,7 @@ h2 {
 	margin-top: auto;
 	padding: 2rem; /* Reduced from 3rem */
 	cursor: pointer;
-	width: 100%;
+	width: 150%; /* Increased width */
 	max-width: 300px;
 }
 
@@ -294,7 +294,7 @@ h2 {
 	max-width: 100%;
 	border-radius: 10px;
 	margin-bottom: 10px; /* Add margin below the video */
-	border: 2px solid #8e302e; /* Added red border */
+	border: 2px solid #808319; /* Added red border */
 }
 
 .modal-content p {
@@ -302,6 +302,7 @@ h2 {
 	font-family: "Comic Neue", serif;
 	font-weight: 700;
 	font-size: 1.5rem; /* Increased font size for emoji */
+	color: #3e4214;
 }
 
 .close-button {
