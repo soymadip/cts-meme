@@ -17,9 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	// Add scroll functionality
 	const scrollIndicator = document.querySelector(".scroll-indicator");
-	const scrollIndicatorVideos = document.querySelector(
-		".scroll-indicator-videos"
-	);
 
 	scrollIndicator.addEventListener("click", () => {
 		document.getElementById("memes-section").scrollIntoView({
@@ -28,10 +25,25 @@ document.addEventListener("DOMContentLoaded", () => {
 		});
 	});
 
-	scrollIndicatorVideos.addEventListener("click", () => {
-		document.querySelector("h2").scrollIntoView({
-			behavior: "smooth",
-			block: "start",
-		});
+	// Modal popup functionality
+	const giftPopup = document.querySelector(".gift-popup img");
+	const modal = document.getElementById("gift-modal");
+	const closeButton = document.querySelector(".close-button");
+	const modalVideo = modal.querySelector("video");
+
+	giftPopup.addEventListener("click", () => {
+		modal.style.display = "block";
+	});
+
+	closeButton.addEventListener("click", () => {
+		modal.style.display = "none";
+		modalVideo.pause();
+	});
+
+	window.addEventListener("click", (event) => {
+		if (event.target === modal) {
+			modal.style.display = "none";
+			modalVideo.pause();
+		}
 	});
 });
