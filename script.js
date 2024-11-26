@@ -53,5 +53,5 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
         document.getElementById("giftMessage").style.display = "block";
-    },11000);
+    },16000);
 });
