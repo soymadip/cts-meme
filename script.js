@@ -48,10 +48,8 @@ document.addEventListener("DOMContentLoaded", () => {
 	});
 });
 
-
-
 document.addEventListener("DOMContentLoaded", () => {
-    setTimeout(() => {
-        document.getElementById("giftMessage").style.display = "block";
-    },9000);
+	setTimeout(() => {
+		document.getElementById("giftMessage").style.display = "block";
+	}, 15000);
 });
